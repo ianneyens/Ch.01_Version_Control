@@ -125,7 +125,7 @@ iowa
 phineas and ferb is my favorite show
 i like blue
 ravioli is my favorite food
-school is boring
+school is very boring
 i like sports
 ------------------Student 13------------------
 
