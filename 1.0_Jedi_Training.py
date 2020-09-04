@@ -1,21 +1,21 @@
 '''
-Sign your name:________________
+Sign your name:Ian Neyens
 
 
 
-Define Forking: 
+Define Forking: copying a repository
 
-Define Cloning: 
+Define Cloning: puting the forked repository on your computer
 
-Define Branching:
+Define Branching: copy of code to test things
 
-Define Committing: 
+Define Committing: recording your changes to git
 
-Define Merging: 
+Define Merging: sending your changes to the owner to put into original
 
-Define Pushing:
+Define Pushing: sending changes to git
 
-Define Pull Request:
+Define Pull Request: request to merge code into original
 
 
 '''
