@@ -3,15 +3,15 @@ Sign your name:Ian Neyens
 
 
 
-Define Forking: copying a repository
+Define Forking: copying a repository to remote account
 
-Define Cloning: puting the forked repository on your computer
+Define Cloning: putting the forked repository on your computer/local save
 
-Define Branching: copy of code to test things
+Define Branching: copy of code to test changes
 
 Define Committing: recording your changes to git
 
-Define Merging: sending your changes to the owner to put into original
+Define Merging: adding changes from a branch into the master
 
 Define Pushing: sending changes to git
 
