@@ -8,10 +8,10 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-walle=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('white') # colors the screen
-walle.pensize(3) # width of pen line
+walle = turtle.Turtle()
+screen = turtle.Screen()  # makes a screen object
+screen.bgcolor('white')  # colors the screen
+walle.pensize(3)  # width of pen line
 walle.speed(15)  # speed of drawing. Go fast to not waste time.
 
 walle.color('black')           # Line 17-34 = tread black
@@ -227,8 +227,8 @@ walle.pendown()
 walle.goto(50, -27)
 walle.penup()
 
-walle.begin_fill()             # Line 230-252 = tread body connector
-walle.goto(-47, -70)
+walle.goto(-47, -70)           # Line 230-252 = tread body connector
+walle.begin_fill()
 walle.pendown()
 walle.goto(-35, -70)
 walle.goto(-35, -47)
@@ -273,7 +273,7 @@ walle.goto(47, 20)
 walle.end_fill()
 walle.penup()
 
-walle.goto(50, 35)             # line - = right arm
+walle.goto(50, 35)             # line 276-310 = right arm
 walle.color('orange')
 walle.begin_fill()
 walle.pendown()
@@ -309,7 +309,7 @@ walle.goto(67, 30)
 walle.end_fill()
 walle.penup()
 
-walle.goto(-53, 35)            # line - = left arm
+walle.goto(-53, 35)            # line 312-349 = left arm
 walle.color('orange')
 walle.begin_fill()
 walle.pendown()
@@ -348,7 +348,7 @@ walle.goto(-60, 32)
 walle.end_fill()
 walle.penup()
 
-walle.goto(-75, 30)            # line - = Rubiks Cube
+walle.goto(-75, 30)            # line 351-439 = Rubiks Cube
 walle.color('black')
 walle.begin_fill()
 walle.pendown()
@@ -438,7 +438,7 @@ walle.goto(-61, 38)
 walle.end_fill()
 walle.penup()
 
-walle.color('black')           # line - = body display
+walle.color('black')           # line 441-520 = body display
 walle.goto(-20, 45)
 walle.begin_fill()
 walle.pendown()
@@ -519,7 +519,7 @@ walle.circle(1.5)
 walle.end_fill()
 walle.penup()
 
-walle.pensize(3)               # line - = neck
+walle.pensize(3)               # line 522-531 = neck
 walle.color('orange')
 walle.goto(-5, 61)
 walle.begin_fill()
@@ -530,7 +530,7 @@ walle.goto(-5, 61)
 walle.end_fill()
 walle.penup()
 
-walle.goto(4, 85)              # line - = head
+walle.goto(4, 85)              # line 533-563 = head
 walle.color('grey')
 walle.begin_fill()
 walle.pendown()
@@ -562,7 +562,7 @@ walle.circle(15)
 walle.end_fill()
 walle.penup()
 
-walle.goto(16, 86)             # line - = Eyes
+walle.goto(16, 86)             # line 565-577 = Eyes
 walle.color('black')
 walle.begin_fill()
 walle.pendown()
@@ -576,7 +576,7 @@ walle.circle(10)
 walle.end_fill()
 walle.penup()
 
-walle.goto(-10, -50)
+walle.goto(-10, -50)           # line 579-598 = WALLE
 walle.pendown()
 walle.write('W A L L', font=("Arial", 10, "normal"))
 walle.penup()
@@ -597,7 +597,7 @@ walle.color('white')
 walle.pendown()
 walle.write('E', font=("Arial", 10, "normal"))
 
-walle.penup()                  # line - = name at bottom
+walle.penup()                  # line 600-605 = name at bottom
 walle.color('black')
 walle.goto(125, -100)
 walle.pendown()
