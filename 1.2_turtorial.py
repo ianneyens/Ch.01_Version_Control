@@ -1,4 +1,4 @@
-'''
+"""
 Modify the starter code below to create your own cool drawing
 and then Pull Request it to your instructor. Make sure you
 keep the last two lines of code. Your first and last name must be written on your art.
@@ -6,13 +6,13 @@ The last line keeps the window open until you click to close.
 
 Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=turtle
 
-'''
+"""
 import turtle
 walle = turtle.Turtle()
 screen = turtle.Screen()  # makes a screen object
 screen.bgcolor('white')  # colors the screen
 walle.pensize(3)  # width of pen line
-walle.speed(15)  # speed of drawing. Go fast to not waste time.
+walle.speed(1000)  # speed of drawing. Go fast to not waste time.
 
 walle.color('black')           # Line 17-34 = tread black
 walle.penup()
@@ -601,5 +601,5 @@ walle.penup()                  # line 600-605 = name at bottom
 walle.color('black')
 walle.goto(125, -100)
 walle.pendown()
-walle.write('Ian Neyens', font=("Arial", 10, "normal"))     # signs your name to your art
+walle.write('Ian Neyens', font=("Arial", 10, "normal"))     # signs name
 turtle.exitonclick()  # Keeps pycharm window open so we can see the drawing
